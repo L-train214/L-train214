@@ -6,9 +6,10 @@
 .container{
     padding: 0 200px;
     background-color: #1f2937;
+}
 .s-nav{
     display: flex;
-    background-color: 
+    background-color: ;
     justify-content: space-between;
     
 }
