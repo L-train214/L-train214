@@ -1,6 +1,25 @@
-body{
-    font-family: 'Roboto';
-    margin: 0;
-    padding: 0;
+*{
     box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    
+}
+.container{
+    padding: 0 200px;
+    background-color: #1f2937;
+.s-nav{
+    display: flex;
+    background-color: 
+    justify-content: space-between;
+    
+}
+.s-nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+}
+.s-nav p{
+    font-size: 24px;
+    font-color: #f9faf8
 }
