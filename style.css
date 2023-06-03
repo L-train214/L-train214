@@ -29,8 +29,10 @@ body{
     color: #f9faf8;
     font-weight: 600;
 }
-.s-nav li{
+.s-nav ul li a{
     color: #E5E7EB;
+    text-decoration: none;
+    
 }
 /** hero section **/
 
@@ -193,4 +195,5 @@ margin: 0px 0px 0px 100px;
 .footer-text{
     padding:2%;
     text-align: center;
+    color:#E5E7EB
 }
