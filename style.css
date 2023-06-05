@@ -116,23 +116,28 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 46px;
+    gap:46px;
     margin: 0px 20% 0px 20%;
 }
 .column-1-box, .column-2-box, .column-3-box, .column-4-box{
-    border: 2px solid blue;
+  /**  border: 2px solid blue;**/
+    display: flex;
+    justify-content: center;
     max-width: 188.76px;
-    padding: 80px;
+    /**padding: 80px;**/
     border-radius: 10px;
     flex-basis: 188.76px;
     
+}
+.main-box-container .column-1 .img-box{
+    border-radius: 5%;
 }
 .column-1-text, .column-2-text, .column-3-text, .column-4-text{
     display: flex;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    max-width: 150px;
+    max-width: 168px;
     padding-top: 4%;
 }
 
