@@ -55,6 +55,8 @@ body{
 }
 .hero-text{
     flex:1;
+    display: flex;
+    flex-wrap:wrap;
 }
 .hero-text h1{
     margin: 0;
@@ -76,6 +78,7 @@ body{
     border-style: none;
     padding: 5px 45px 5px 45px;
     margin-top: 10px;
+    max-height: 13%;
 }
 .hero-img-cont{
     flex: 1;
@@ -84,10 +87,12 @@ body{
 .hero-img-cont div{
    /** background-color: grey;**/
  display: flex;
+ flex: 1;
  justify-content: center; 
  align-items: center;  
  height: 100%;   
  width: 100%;
+
 }
 .hero-img-cont img{
     max-width: 100%;
